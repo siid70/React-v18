@@ -3,10 +3,10 @@ import Book from "./Book";
 import books from "../books";
 
 const BookList: React.FC = () => {
-  console.group("Task 2");
-  console.log("Task activity 3");
-  console.log("Task activity 4");
-  console.groupEnd();
+  // console.group("Task 2");
+  // console.log("Task activity 3");
+  // console.log("Task activity 4");
+  // console.groupEnd();
   return (
     <section className="book-list">
       {books.map((book, index) => {
